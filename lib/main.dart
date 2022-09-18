@@ -4,7 +4,7 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: Scaffold(
-      backgroundColor: Colors.green,
+      backgroundColor: Colors.white70,
       appBar: AppBar(
         elevation: 10,
         centerTitle: true,
@@ -14,23 +14,35 @@ void main() {
 
 
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-
           Expanded(
             flex: 2,
             child: Row(
-              children: [Expanded(
-                child: Container(
-                  color: Colors.amberAccent,
-                  child: Text('1',style: TextStyle(
+              children:
+
+
+              [Expanded(
+                child:
+                Container(
+
+                  alignment: Alignment.centerRight,
+
+
+                  child:
+
+                  Text('100+10', style: TextStyle(
                     fontSize: 36,
-                    color: Colors.white
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+
                   ),),
+
                 ),
               )],
             ),
           ),
+
 
           Expanded(
 
