@@ -139,7 +139,12 @@ void main() {
 
               ],
             ),
-          ), //done
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+
+
 
           Expanded(
 
@@ -283,36 +288,450 @@ void main() {
               ],
             ),
           ),
-
-          Expanded(
-            flex: 1,
-            child: Row(
-              children: [Expanded(
-                child: Container(
-                  color: Colors.amberAccent,
-                  child: Text('4',style: TextStyle(
-                    fontSize: 36,
-                    color: Colors.white
-                  ),),
-                ),
-              )],
-            ),
+          const SizedBox(
+            height: 10,
           ),
 
           Expanded(
-            flex: 1,
+
             child: Row(
-              children: [Expanded(
-                child: Container(
-                  color: Colors.amberAccent,
-                  child: Text('5',style: TextStyle(
-                    fontSize: 36,
-                    color: Colors.white
-                  ),),
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const SizedBox(
+                  width: 10,
                 ),
-              )],
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('4',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.green.shade900,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+                ),
+
+                const SizedBox(
+                  width: 10,
+                ),
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('5',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.green.shade900,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+
+                ),
+                const SizedBox(
+                  width: 10,
+                ),
+
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('6',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.green.shade900,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+                ),
+
+                const SizedBox(
+                  width: 10,
+                ),
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('-',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.red.shade700,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+
+                ),
+                const SizedBox(
+                  width: 10,
+                ),
+
+
+              ],
             ),
           ),
+          const SizedBox(
+            height: 10,
+          ),
+
+          Expanded(
+
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const SizedBox(
+                  width: 10,
+                ),
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('1',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.green.shade900,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+                ),
+
+                const SizedBox(
+                  width: 10,
+                ),
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('2',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.green.shade900,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+
+                ),
+                const SizedBox(
+                  width: 10,
+                ),
+
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('3',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.green.shade900,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+                ),
+
+                const SizedBox(
+                  width: 10,
+                ),
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('/',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.red.shade700,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+
+                ),
+                const SizedBox(
+                  width: 10,
+                ),
+
+
+              ],
+            ),
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+
+          Expanded(
+
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const SizedBox(
+                  width: 10,
+                ),
+                Expanded(
+
+
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('.',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.green.shade900,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+                ),
+
+                const SizedBox(
+                  width: 10,
+                ),
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('0',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.green.shade900,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+
+                ),
+                const SizedBox(
+                  width: 10,
+                ),
+
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.green,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('=',style: TextStyle(
+                      fontSize: 50,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+                ),
+
+                const SizedBox(
+                  width: 10,
+                ),
+                Expanded(
+                  child: Container(
+                    alignment: Alignment.center,
+                    width: 200,
+                    height: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.grey.shade300,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.shade600,
+                            spreadRadius: 1,
+                            blurRadius: 10,
+                            offset: Offset(4,4),
+
+                          )
+                        ]
+                    ),
+
+
+                    child: Text('+',style: TextStyle(
+                      fontSize: 36,
+                      color: Colors.red.shade700,
+                      fontWeight: FontWeight.bold,
+                    ),),
+
+                  ),
+
+                ),
+                const SizedBox(
+                  width: 10,
+                ),
+
+
+              ],
+            ),
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+
 
         ],
 
