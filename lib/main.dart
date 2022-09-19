@@ -15,6 +15,7 @@ void main() {
 
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
         children: [
           Expanded(
             flex: 2,
@@ -430,7 +431,7 @@ void main() {
 
 
                     child: Text('-',style: TextStyle(
-                      fontSize: 36,
+                      fontSize: 60,
                       color: Colors.red.shade700,
                       fontWeight: FontWeight.bold,
                     ),),
