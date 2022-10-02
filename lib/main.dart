@@ -384,7 +384,7 @@ void main() {
                       child: Text(
                         '-',
                         style: TextStyle(
-                          fontSize: 60,
+                          fontSize: 65,
                           color: Colors.red.shade700,
                           fontWeight: FontWeight.bold,
                         ),
@@ -513,7 +513,7 @@ void main() {
                       child: Text(
                         '/',
                         style: TextStyle(
-                          fontSize: 36,
+                          fontSize: 40,
                           color: Colors.red.shade700,
                           fontWeight: FontWeight.bold,
                         ),
@@ -555,7 +555,7 @@ void main() {
                       child: Text(
                         '.',
                         style: TextStyle(
-                          fontSize: 36,
+                          fontSize: 50,
                           color: Colors.green.shade900,
                           fontWeight: FontWeight.bold,
                         ),
@@ -642,7 +642,7 @@ void main() {
                       child: Text(
                         '+',
                         style: TextStyle(
-                          fontSize: 36,
+                          fontSize: 40,
                           color: Colors.red.shade700,
                           fontWeight: FontWeight.bold,
                         ),
