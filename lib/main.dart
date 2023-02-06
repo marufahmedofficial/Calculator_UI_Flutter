@@ -10,7 +10,7 @@ void main() {
           elevation: 10,
           centerTitle: true,
           backgroundColor: Colors.blueAccent,
-          title: Text('Calculator UI'),
+          title: const Text('Calculator UI'),
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -21,9 +21,9 @@ void main() {
                 children: [
                   Expanded(
                     child: Container(
-                      margin: EdgeInsets.fromLTRB(0, 0, 20, 0),
+                      margin: const EdgeInsets.fromLTRB(0, 0, 20, 0),
                       alignment: Alignment.centerRight,
-                      child: Text(
+                      child: const Text(
                         '100+10',
                         style: TextStyle(
                           fontSize: 36,
@@ -37,10 +37,10 @@ void main() {
               ),
             ),
 
-            Divider(
+            const Divider(
               color: Colors.grey,
               thickness: 2 ),
-            SizedBox(height: 5,),
+            const SizedBox(height: 5,),
             Expanded(
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -61,7 +61,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -90,7 +90,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -120,7 +120,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -162,7 +162,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -191,7 +191,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -220,7 +220,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -249,7 +249,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -291,7 +291,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -320,7 +320,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -349,7 +349,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -378,7 +378,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -420,7 +420,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -449,7 +449,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -478,7 +478,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -507,7 +507,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -549,7 +549,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -578,7 +578,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
@@ -607,10 +607,10 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
-                      child: Text(
+                      child: const Text(
                         '=',
                         style: TextStyle(
                           fontSize: 50,
@@ -636,7 +636,7 @@ void main() {
                               color: Colors.grey.shade600,
                               spreadRadius: 1,
                               blurRadius: 10,
-                              offset: Offset(4, 4),
+                              offset: const Offset(4, 4),
                             )
                           ]),
                       child: Text(
